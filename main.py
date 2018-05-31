@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 from genetic import GA
 
-filename = 'images/mikaso.jpeg'
+filename = 'images/mikasa.jpeg'
 
 def threshold(t, image):
     image_tmp = np.asarray(image)
